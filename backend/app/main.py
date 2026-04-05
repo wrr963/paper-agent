@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from app.database import get_db
-from app.pdf_parser import get_pdf_parser, PDFParser
-from app.llm_pipeline import get_llm_pipeline, LLMPipeline
+from .database import get_db
+from .pdf_parser import get_pdf_parser, PDFParser
+from .llm_pipeline import get_llm_pipeline, LLMPipeline
 
 app = FastAPI(
     title="Paper Agent API",
