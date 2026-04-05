@@ -6,4 +6,5 @@ sqlalchemy==2.0.35
 python-dotenv==1.0.1
 httpx
 pypdf
+pymupdf
 python-multipart
