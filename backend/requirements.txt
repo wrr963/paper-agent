@@ -1,0 +1,9 @@
+fastapi==0.110.0
+uvicorn==0.29.0
+google-generativeai==0.8.6
+pydantic==2.12.5
+sqlalchemy==2.0.35
+python-dotenv==1.0.1
+httpx
+pypdf
+python-multipart
